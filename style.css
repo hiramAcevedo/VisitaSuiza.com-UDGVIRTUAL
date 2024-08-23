@@ -1,0 +1,663 @@
+/* Estilos Generales del sitio pantalla de ordenador */
+
+/* Header */
+body {
+    background-color:#fff7f3;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #281713;
+    display: inline-block;
+}
+
+h1 {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align:top;
+    font-size: 35px;
+}
+
+h1 a {
+    transition: 400ms;
+}
+
+h1 a:hover {
+    color: #f90007;
+}
+
+.logo {
+    display: inline-block;
+    transition: 400ms;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+#banderaTitulo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    left: 230px;
+}
+
+.navandBoton {
+    float: right;
+}
+
+ul.navHeader, .botonesRegistro {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-weight:500;
+}
+
+.botonesRegistro {
+    background-color: #BEA6A0;
+}
+
+ul.navHeader li {
+    display: inline-block;
+    padding: 36px 20px;
+    font-size: 20px;
+    transition: 400ms;
+}
+
+ul.navHeader li:hover {
+    transform: scale(1.05);
+}
+
+.botonesRegistro li {
+    display:inline-block;
+    padding: 36px 20px;
+    font-size: 20px;
+}
+
+.ingresaRegistro {
+    background-color:#BEA6A0;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.ingresaRegistro:hover {
+    background-color:#f90007;
+}
+
+.ingresaRegistro a{
+    padding: 36px 20px;
+}
+
+.registroLink:hover{
+    color: #fff7f3;    
+}
+
+/* Resaltado por página - header */
+
+.descubrelink, .destinoslink, 
+.historialink, .testimonioslink, 
+.formulariolink{
+    color: #f90007;
+}
+
+/* Generales */
+
+a {
+    color:#fff7f3;
+    text-decoration: none;
+}
+
+li a {
+    transition: 400ms;
+}
+
+li a:hover {
+    color:#f90007;
+}
+
+/* INDEX */
+/* General */
+
+h2.h2Index, h2.h2-02, h2.h2-06 { 
+    color: #281713;
+    margin: 28px;
+    font-size: 33px;
+    text-align: center;
+}
+
+h2.h2Index a{ /* h2 link color */
+    color: #281713;
+}
+
+h2.h2Index a:hover { /* h2 hover */
+    color:#f90007;
+}
+
+h2.h2Index strong { /* h2 strong color size */
+    font-size: 38px;
+    color: #f90007;
+}
+
+p { /* Index, 01, 02, 03, 04, 05, 06*/
+    color:#281713;
+    font-size: 20px;
+}
+
+h3.h3Index { /* h3 index 04 06*/
+    color:#281713;
+    font-size: 24px;
+    text-align: center;
+    padding: 0%;
+    clear: both;
+}
+
+h3.h3Index a{
+    color: #281713;
+    font-size: 33px;
+    text-align: center;
+}
+
+h3.h3Index a:hover {
+    color:#f90007;
+}
+
+/* Bienvenido a Suiza */
+
+.bloqueCentroIndexMain { /* Index */
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bloqueCentroIndexMap { /* Index */
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgMapIndex { /* Map only index */
+    margin: 30px 0;
+}
+
+/* Descubre Suiza */
+
+.bloqueCentroIndexDescubre { /* Index */
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgDescubre { /* Descubre only index */
+    height: 400px;
+    width: 100%;
+}
+
+.inviernoAct { /* Descubre only index */
+    width: 45%;
+    padding: 0 15px;
+    float: left;
+}
+
+.veranoAct { /* Descubre only index */
+    width: 45%;
+    padding: 0 15px;
+    float: right;
+}
+
+.cualquierEpoca { /* Descubre only index */
+    clear: both;
+}
+
+
+/* ¿Qué lugares visitar? */
+/* Esto va abajo de descubre suiza y el mapa */
+
+.quevisitarBloqueIndex { /* Index */
+    width: 70%;
+    margin: 0 auto;
+}
+
+.quevisitarBloqueIndex div{ /* Index */
+    display: inline-block;
+    width: 33%;
+    min-height: 500px;
+    box-shadow: 0px 0px 10px 2px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 400ms;
+}
+
+.quevisitarBloqueIndex div:hover{ /* Index */
+    transform: scale(1.05);
+}
+
+.quevisitarBloqueIndex p{ /* Index */
+    margin: 0 auto;
+    padding: 225px 100px; 
+    float: left;
+    opacity: 0%;
+    font-size: 40px;
+    transition: 400ms;
+    font-weight: bolder;
+    text-shadow: 5px 5px 20px black;
+}
+
+.quevisitarBloqueIndex p:hover { /* Index */
+    color: #fff7f3;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.quevisitar1 { /* Index */
+    background: url(img/zurich.jpeg);
+}
+
+.quevisitar2 { /* Index */
+    background: url(img/berna.jpg);
+}
+
+.quevisitar3 { /* Index */
+    background: url(img/Ginebra-suiza.jpg);
+}
+
+.quevisitar4 { /* Index */
+    background: url(img/zermatt.jpeg);
+}
+
+.quevisitar5 { /* Index */
+    background: url(img/lauterbrunnen.jpeg);
+}
+
+.quevisitar5 p { /* movimiento de texto Lauterbrunnen */
+    padding: 225px 15px;
+}
+
+.quevisitar6 { /* Index */
+    background: url(img/Lucerna.jpeg);
+}
+
+/* Testimonios */
+
+.youtubeIndex {
+    width: 33%;
+    height:600px;
+    display: inline-block;
+}
+
+/* Footer */
+footer {
+    background-color: #281713;
+}
+
+footer.footerIndex, footer.footer-04, footer.footer-05, footer.footer-06 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h4.h4Index, h4.h4-02, h4.h4-03, h4.h4-04, h4.h4-05, h4.h4-06{
+    color: #fff7f3;
+    font-size: 20px;
+}
+
+nav.navIndex, nav.nav-01, nav.nav-02, nav.nav-03, nav.nav-04, nav.nav-05, nav.nav-06{
+    padding: 10px 0;
+}
+
+.referenciasPIndex, .referenciasP-01, .referenciasP-02, .referenciasP-03, .referenciasP-04, .referenciasP-05, .referenciasP-06{
+    color: #fff7f3;
+    font-size: 15px;
+}
+
+.navLinksIndex, .navLinks-01, .navLinks-02, .navLinks-03, .navLinks-04, .navLinks-05, .navLinks-06{
+    font-size: 18px;
+    margin: 10px 15px;
+}
+
+.navLinksIndex:hover, .navLinks-01:hover, .navLinks-02:hover, .navLinks-03:hover, .navLinks-04:hover, .navLinks-05:hover, .navLinks-06:hover{
+    color:#f90007;
+}
+
+.enviarIndex { /* Estilos botón Contáctenos */
+    width: 30%;
+    padding: 15px 0;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #281713;
+    border: none;
+    border-radius: 5px;
+    transition: 400ms all;
+    cursor: pointer;
+}
+
+.enviarIndex:hover {
+    background: #f90007;
+    transform:scale(1.05);
+}
+
+.botonFormIndex, .botonForm-06 {
+    text-align: center;
+}
+
+/* 01-actividades-suiza */
+
+h2.h2-01, h2.h2-03, h2.h2-04, h2.h2-05 { /* Diferente igual */
+    color: #281713;
+    font-size: 33px;
+    text-align: center;
+}
+
+h2.h2-01 strong { /* h2 strong color size */
+    font-size: 38px;
+    color: #281713;
+}
+
+/* Esta modificación altero Historia por 
+lo pronto no parece grave  */
+
+.bloqueCentro-01 { /* 01 */
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.bloqueCentro-01Extra p {
+    text-align: center;
+}
+
+p a { /* P a general */
+    color:#281713;
+    font-size: 23px;
+}
+
+p a:hover {
+    color: #f90007;
+    font-size: 23px;
+}
+
+p.quevisitarText a{
+    color: #fff7f3;
+    font-size: 40px;
+}
+
+/* Esta modificación altero Historia por 
+lo pronto no parece grave  */
+
+
+.parrafosInt {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul.invierno {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.verano {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul img {
+    width: 80%;
+}
+
+li p {
+    width: 80%;
+    display: inline-block;
+}
+
+h3.h3-01 { /* 01 */
+    font-size: 25px;
+    color: #281713;
+}
+
+.grande { /* Efecto scale */
+    color: #281713;
+    transition: 400ms all;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.grande:hover {
+    color: #f90007;
+}
+
+footer.footer-01 {
+    text-align: center;
+}
+
+h4.h4-01 {
+    color: #fff7f3;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* 02-ciudades-importantes */
+
+.bloqueCentro-02 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+article.article-02 p {
+    float: right;
+    text-align: center;
+    width: 45%;
+    vertical-align:top;
+    color:#281713;
+    font-size: 20px;
+    margin: auto;
+}
+
+.imagenesCiudades {
+    display: inline-block;
+    width: 45%;
+}
+
+h3.h3-02 { /* h3 02 */
+    color:#281713;
+    margin: 35px 0 5px 12px;
+    font-size: 31px;
+    clear: both;
+}
+
+footer.footer-02 {
+    text-align: center;
+    margin-top: 190px;
+    clear: both;
+}
+
+
+/* 03-historia */
+
+.bloqueCentro-03 {
+    width: 70%;
+    margin: 0 auto;
+    clear: both;
+}
+
+.img1-03 {
+    width: 34%;
+    float: right;
+}
+
+.img2-03 {
+    width: 50%;
+    clear: left;
+}
+
+.bloque2-03 {
+    float: right;
+    width: 46%;
+}
+
+footer.footer-03 {
+    text-align: center;
+    margin-top: 100px;
+    clear: both;
+}
+
+
+/* 04-testimonios */
+
+.bloqueCentro-04 {
+    width: 51.5%;
+    margin: 0 auto;
+}
+
+h3.h3-04 {
+    color:#281713;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* 05-contacto-formulario */
+
+.bloqueCentro-05 {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.imgForm {
+    width: 38%;
+    margin: 30px 10px 0;
+    float: right;
+}
+
+/* Tabla */
+
+.tabla-precios table {
+    width: 55%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: #fff7f3;
+}
+
+.tabla-precios th, .tabla-precios td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tabla-precios tbody tr {
+    border-bottom: 1px solid #281713;
+}
+
+.tabla-precios thead {
+    background-color: #281713;
+}
+
+.tabla-precios td {
+    color: #281713;
+}
+
+/* Form */
+
+form.form-05 {
+    margin: 40px 0;
+}
+
+form.form-05 label, form.form-05 legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset.fieldset-05 {
+    clear: both;
+}
+
+.input-padron-05 {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox-05 {
+    margin: 20px 0;
+}
+
+.submitButton-05 {
+    text-align: center;
+}
+
+.enviar-05 {
+    width: 65%;
+    padding: 15px 0;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #281713;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar-05:hover {
+    background: #f90007;
+    transform:scale(1.05);
+}
+
+/* 06-registro */
+
+.bloqueCentro-06 { /* 06 */
+    width: 55%;
+    margin: 0 auto;
+    background-image: url(img/zurich.jpeg);
+    background-size: cover;
+    min-height: 800px;
+}
+
+form.form-06 {
+    padding: 0 0 40px;
+}
+
+
+form.form-06 label, form.form-06 legend {
+    display: block;
+    font-size: 20px;
+    font-weight: bold; /* Bold y color */
+    color: #281713;
+    margin: 0 0 10px;
+}
+
+.input-padron-06 {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+fieldset.fieldset-06 {
+    border-width: 2px;
+    border-style: none;
+}
+
+.enviar-06 {
+    width: 40%;
+    padding: 15px 0;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #281713;
+    border: none;
+    border-radius: 5px;
+    transition: 400ms all;
+    cursor: pointer;
+}
+
+.enviar-06:hover {
+    background: #f90007;
+    transform:scale(1.05);
+}

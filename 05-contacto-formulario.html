@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prepara tus Maletas</title>
+    <meta name="author" content="Hiram Agustín Acevedo López">
+    <meta name="description" content="05-contacto-formulario - Formulario de contacto.">
+    <link rel="icon" type="image/jpg" href="img/suizaicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-portrait.css">
+
+</head>
+<body>
+
+    <header>
+        
+        <div class="logo">
+            <h1><a href="index.html">Visita Suiza</a></h1>
+    
+            <img src="img/suizaicon.png" alt="Bandera suiza" id="banderaTitulo">
+            </div>
+        
+        <div class="navandBoton">
+        <ul class="navHeader">
+            <li><a href="01-actividades-suiza.html">Descubre Suiza</a></li>
+            <li><a href="02-ciudades-importantes.html">Destinos</a></li>
+            <li><a href="03-historia.html">Historia</a></li>
+            <li><a href="04-testimonios.html">Testimonios</a></li>
+            <li><a href="05-contacto-formulario.html" class="formulariolink">Contáctenos</a></li>
+        </ul>
+        
+        <ul class="botonesRegistro">
+            <li class="ingresaRegistro"><a href="06-registro.html" class="registroLink">Ingresa</a></li>
+            <li class="ingresaRegistro"><a href="06-registro.html" class="registroLink">Regístrate</a></li>
+        </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+    <h2 class="h2-05">Escríbenos somos tu mejor solución para viajar a Suiza </h2>
+
+    <div class="bloqueCentro-05">
+    <p>Bienvenido a nuestro formulario de contacto. Apreciamos tu interés en conectarte con nosotros. Por favor, rellena los campos a continuación con tu información de contacto y cualquier otro detalle que consideres relevante. Nos esforzamos por responder a todas las consultas de manera oportuna y estamos aquí para ayudarte con tus necesidades. ¡Gracias por tomarte el tiempo de alcanzarnos!</p>
+    </div>
+
+    <h2 class="h2-05">Aquí nuestra lista de precios</h2>
+
+    <div class="tabla-precios">
+        <table>
+            <thead>
+                <tr>
+                    <th>Paquete</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Básico</td>
+                    <td>7 días, incluye alojamiento y tours a las principales ciudades.</td>
+                    <td>$1,500</td>
+                </tr>
+                <tr>
+                    <td>Estándar</td>
+                    <td>10 días, incluye alojamiento, tours y transporte interno.</td>
+                    <td>$2,000</td>
+                </tr>
+                <tr>
+                    <td>Premium</td>
+                    <td>14 días, todo incluido más actividades exclusivas.</td>
+                    <td>$2,800</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 class="h2-05">Rellena el formulario</h2>
+
+    <div class="bloqueCentro-05">
+    <form class="form-05">
+        <img src="img/formimg.jpg" alt="vaca suiza" class="imgForm">
+
+        <div class="divForm-05">
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron-05" required>
+
+        <label for="correoelectronico">Correo Electrónico</label>
+        <input type="email" id="correoelectronico" class="input-padron-05" required placeholder="email@dominio.com">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input-padron-05" required placeholder="(XX) XXXX XXXX">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje" class="input-padron-05" required></textarea>
+
+        <fieldset class="fieldset-05">
+            <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+            
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+            
+
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+            
+        </fieldset>
+
+        <fieldset class="fieldset-05">
+        <legend>¿En cuál horario prefiere ser atendido?</legend>
+        <div class="selectForm-05">
+        <select>
+            <option>Mañana</option>
+            <option>Tarde</option>
+            <option>Noche</option>
+        </select>
+        </div>
+        </fieldset>
+
+        <label class="checkbox-05"><input type="checkbox" checked>¿Le gustaría recibir novedades de Visita Suiza?</label>
+        </div>
+        
+        <div class="submitButton-05">
+        <input type="submit" value="Enviar formulario" class="enviar-05">
+        </div>
+    </form>
+    </div>
+    
+    </main>
+
+    <footer class="footer-05">
+        <h4 class="h4-05">Referencias</h4>
+
+
+        <p class="referenciasP-05">Wikipedia, la enciclopedia libre. (n.d.). Historia de Suiza. Recuperado de https://es.wikipedia.org/wiki/Historia_de_Suiza</p>
+        <p class="referenciasP-05">Departamento Federal de Asuntos Exteriores de Suiza. (n.d.). Historia de Suiza. Recuperado de https://www.eda.admin.ch</p>
+        <p class="referenciasP-05">Martí, M. (13 de diciembre de 2012). Breve historia de Suiza. Sobre Suiza. Recuperado de https://sobresuiza.com/2012/12/13/historia-de-suiza/</p>
+        <p class="referenciasP-05">Hablemos de Culturas. (n.d.). Cultura suiza: características, costumbres, y todo lo que necesita saber. Recuperado de https://hablemosdeculturas.com/cultura-suiza/</p>
+        <p class="referenciasP-05">El Viajero Feliz. (n.d.). 10 ciudades de Suiza imprescindibles ¡Conócelas!. Recuperado de https://elviajerofeliz.com/ciudades-de-suiza/</p>
+        <p class="referenciasP-05">Suiza Turismo. (n.d.). Viajes, vacaciones y congresos. Recuperado de https://www.myswitzerland.com/es/</p>
+
+        <hr>
+
+        <nav class="nav-05">
+            <a class="5" href="index.html">Visita Suiza </a>
+            <a class="navLinks-05" href="descubre-ciudad.html">Descubre Suiza</a>
+            <a class="navLinks-05" href="que-visitar.html">Destinos</a>
+            <a class="navLinks-05" href="historia.html">Historia</a>
+            <a class="navLinks-05" href="testimonios.html">Testimonios</a>
+            <a class="navLinks-05" href="formulario.html">Contáctenos</a>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>

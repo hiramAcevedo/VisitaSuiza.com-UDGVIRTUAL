@@ -1,0 +1,380 @@
+/* INDEX */
+
+@media screen and (max-width:600px){
+    body {
+        background-color: #6D6D6D;
+    }
+/* Header */
+    header {
+        background-color: #131313;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        padding-left: 0;
+        margin: 10px;
+    }
+
+    .navandBoton {
+        float: none;
+        text-align: center;
+    }
+
+    ul.navHeader li {
+        padding: 10px 20px;
+    }
+
+    ul.navHeader, .botonesRegistro {
+        display: block; 
+    }
+
+    #banderaTitulo {
+        display: inline-block;
+        position: sticky;
+        top: 20px;
+    }
+
+    .botonesRegistro li {
+        padding: 10px 20px;
+    }
+
+    .ingresaRegistro a{
+        padding: 10px 20px;
+    }
+
+    .botonesRegistro, .ingresaRegistro {
+        background-color: #282828;
+    }
+
+    h2.h2Index, h2.h2-02, h2.h2-03, h2.h2-04, h2.h2-05 {
+        color: white;
+        margin: 15px 0;
+    }
+
+    h2.h2Index a {
+        color: white;
+    }
+
+    h2.h2Index strong {
+        color: #000000;
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+    }
+
+    p a {
+        color: #131313;
+    }
+
+    h3.h3Index {
+        color: white;
+    }
+    
+    h3.h3Index a {
+        color: white;
+    }
+
+    .bloqueCentroIndexMain {
+        width: 95%;
+    }
+
+    .bloqueCentroIndexMain p {
+        text-align: left;
+    }
+
+    .bloqueCentroIndexMap {
+        width: 100%;
+    }
+
+    .bloqueCentroIndexDescubre {
+        width: 100%;
+    }
+
+    .inviernoAct {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .veranoAct {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .quevisitarBloqueIndex {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .quevisitarBloqueIndex div {
+        width: 100%;
+    }
+
+    .youtubeIndex {
+        width: 100%;
+        max-height: 300px;
+        margin: 20px 0;
+    }
+
+    .enviarIndex {
+        color: #131313;
+        background: white;
+        width: 65%;
+    }
+
+    .enviarIndex:hover {
+        color: white;
+    }
+
+/* Footer */
+    footer {
+        background-color: #131313;
+    }
+
+    /* 01-actividades-suiza */
+
+    .bloqueCentroPortrait {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .bloqueCentro-01 p {
+        text-align: left;
+    }
+
+    .text-01 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    h2.h2-01, h2.h2-06 {
+        color: white;
+    }
+
+    h2.h2-01 strong {
+        color: rgb(0, 0, 0);
+    }
+
+    .bloqueCentro-01 {
+        width: 100%;
+    }
+
+    .parrafosInt {
+        width: 100%;
+    }
+
+    ul.invierno {
+        padding: 0%;
+    }
+
+    ul.verano {    
+        padding: 0%;
+    }
+
+    ul img {
+        width: 100%;
+    }
+
+    h3.h3-01 { /* 01 */
+        color: #ffffff;
+    }
+
+    li p {
+        width: 100%;
+    }
+
+/* 02-ciudades-importantes */
+
+    .bloqueCentro-02 {
+        width: 100%;
+    }
+
+    .text-02 {
+        margin: 0 auto;
+        width: 95%;
+        text-align: left;
+    }
+
+    h3.h3-02 {
+        color: white;
+        text-align: center;
+    }
+
+    .imagenesCiudades {
+        width: 100%;
+    }
+
+    article.article-02 p {
+        float: none;
+        width: 97%;
+        color: white;
+        text-align: left;
+    }
+
+    footer.footer-02 {
+        margin-top: 80px;
+    }
+
+/* 03-historia */
+
+    .bloqueCentro-03 {
+        width: 100%;
+    }
+
+    .img1-03 {
+        width: 100%;
+        float: none;
+    }
+
+    .img2-03 {
+        width: 100%;
+    }
+
+    .text-03Portrait {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .bloque2-03 {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .h3-03 {
+        color: white;
+        font-size: 26px;
+    }
+
+
+/* 04-testimonios */
+
+    .bloqueCentro-04 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h3.h3-04 {
+        color: white;
+        font-size: 32px;
+    }
+
+/* 05-contacto-formulario */
+
+    .bloqueCentro-05 {
+        width: 100%;
+    }
+
+    .bloqueCentro-05 p {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .imgForm {
+        width: 100%;
+        margin: 0 0 15px;
+        float: none;
+    }    
+
+/* Tabla */
+
+    .tabla-precios table {
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        color: #ffffff;
+    }
+
+    .tabla-precios tbody tr {
+        border-bottom: 1px solid #131313;
+        font-size: 17px;
+    }
+
+    .tabla-precios thead {
+        background-color: #131313;
+        font-size: 19px;
+    }
+    
+    .tabla-precios td {
+        color: #131313;
+    }
+/* Form */
+
+    form.form-05 label, form.form-05 legend {
+        font-size: 25px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .input-padron-05 {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 0px;
+        width: 95%;
+    }
+
+    input[type="text"], 
+    input[type="email"],
+    input[type="tel"], input[type="password"], textarea {
+        font-size: 18px;
+    }
+
+    .selectForm-05 {
+        text-align: center;
+    }
+
+    select {
+        font-size: 20px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .enviar-05 {
+        background-color: #ffffff;
+        color: #131313;
+    }
+
+    .enviar-05:hover {
+        color: white;
+    }
+
+/* 06-registro */
+
+    .bloqueCentro-06 { /* 06 */
+        width: 100%;
+        margin: 0 auto;
+        background-image: none;
+        min-height: 350px;
+    }
+
+    .input-padron-06 {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 0px;
+        width: 95%;
+    }
+
+    form.form-06 label, form.form-06 legend {
+        font-size: 25px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    .enviar-06 {
+        width: 65%;
+        background: #ffffff;
+        color: #131313;
+    }
+
+    .enviar-06:hover {
+        color: #ffffff;
+    }
+
+}
